@@ -9,13 +9,13 @@ public class SolveQuadratic
         double root1, root2;
         Scanner keyboard = new Scanner(System.in);
         
-        System.out.print ("Enter the coefficient of x^2: ");
+        System.out.print("Enter the coefficient of x^2: ");
         a = keyboard.nextInt();
         
-        System.out.print ("Enter the coefficient of x: ");
+        System.out.print("Enter the coefficient of x: ");
         b = keyboard.nextInt();
         
-        System.out.print ("Enter the constant: ");
+        System.out.print("Enter the constant: ");
         c = keyboard.nextInt();
         
         discriminant = Math.pow(b,2) - (4 * a * c);
